@@ -6,6 +6,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgb(46, 77, 163) 0%, rgb(65, 187, 91) 100%);
+  font-family: 'Margarine', cursive;
+}
+.titulo{
+  text-shadow: 2rem;
+  font-style: italic;
+  font-size: 4rem;
 }
 
 code {
