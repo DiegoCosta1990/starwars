@@ -5,15 +5,43 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to left, rgb(46, 77, 163) 0%, rgb(65, 187, 91) 100%);
-  font-family: 'Margarine', cursive;
+  -moz-osx-font-smoothing: grayscale;  
+  background-image: url('backgroundimg.jpg');
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .titulo{
   text-shadow: 2rem;
   font-style: italic;
+  text-decoration-line: underline;
   font-size: 4rem;
 }
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 92px;
+    padding: 50px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;  
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+}
+.background{
+  background-color: rgba(255, 255, 255, 0.363)
+}
+
+.imputcolor{
+  background-color: rgba(0, 0, 0, 0.418);
+  color: azure;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.87);
+  opacity: 1; /* Firefox */
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

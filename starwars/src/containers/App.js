@@ -4,7 +4,9 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
-import { setSearchField, requestPeople } from '../Actions'; 
+import { setSearchField, requestPeople } from '../Actions';
+import 'tachyons';
+import 'tachyons-animate'; 
 
 
 const mapStateToProps = (state) => {
@@ -37,7 +39,7 @@ class App extends Component {
             <h1>Loading</h1>:
             (
             <div className= "tc">
-                <h1 className="titulo">Star Wars searching people</h1>
+                <h1 className="titulo grow-large">Star Wars searching people</h1>
                 <SearchBox searchChange={onSearchChange} />
                 <Scroll>
                     <ErrorBoundry>
